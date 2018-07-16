@@ -6,7 +6,7 @@ import re
 from gensim.models import word2vec
 
 # ファイル読込み、内部表現化
-f = codecs.open('sanshiro.txt', "r", "sjis")
+f = codecs.open('/tmp/sanshiro.txt', "r", "sjis")
 text = f.read()
 f.close()
 
