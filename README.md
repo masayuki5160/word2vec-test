@@ -11,6 +11,9 @@ $ docker build -t masayuki5160/python3 .
 
 # 作成したdocker image(masayuki5160/python3)をstart
 $ docker run -v $(pwd):/home/word2vec-test/  -it masayuki5160/python3 /bin/bash 
+
+# modelを利用する
+$ python createModel.py 
 ```
 
 # Appendix
