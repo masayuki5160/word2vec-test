@@ -10,8 +10,8 @@ app.config['JSON_AS_ASCII'] = False
 def index():
    return 'Hello flask'
 
-# hoge
-@app.route('/getVector/<string:word>')
+# 類似の単語を取得する
+@app.route('/similar/<string:word>')
 def getSimilar(word):
 	similarWords = model.most_similar(word)
 	words = []

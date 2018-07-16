@@ -22,7 +22,7 @@ $ python useModel.py
 $ python webapi.py
 ```
 
-if you access "http://localhost:5000/getVector/男", you can see similar word like below.
+if you access "http://localhost:5000/similar/男", you can see similar word like below.
 ```
 [
   [
