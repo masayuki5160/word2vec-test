@@ -14,6 +14,9 @@ $ docker run -v $(pwd):/home/word2vec-test/  -it masayuki5160/python3 /bin/bash
 
 # generate model, and save it. 
 $ python createModel.py
+
+# use model
+$ python useModel.py
 ```
 
 # Appendix
