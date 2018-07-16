@@ -6,14 +6,14 @@
 $ git clone git@github.com:masayuki5160/word2vec-test.git
 $ cd word2vec-test
 
-# Dockerfileからmasayuki5160/python3と名前をつけdocker imageを作成
+# build docker image from Dockerfile
 $ docker build -t masayuki5160/python3 .
 
-# 作成したdocker image(masayuki5160/python3)をstart
+# run docker image(masayuki5160/python3)
 $ docker run -v $(pwd):/home/word2vec-test/  -it masayuki5160/python3 /bin/bash 
 
-# modelを利用する
-$ python createModel.py 
+# generate model, and save it. 
+$ python createModel.py
 ```
 
 # Appendix
