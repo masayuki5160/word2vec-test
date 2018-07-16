@@ -69,3 +69,5 @@ print(model.__dict__['wv']['世間'])
 ret = model.wv.most_similar(positive=['世間']) 
 for item in ret:
     print(item[0], item[1])
+
+model.save('sanshiro.model')
