@@ -13,8 +13,11 @@ def index():
 # hoge
 @app.route('/getVector/<string:word>')
 def getSimilar(word):
-	res = model.most_similar(word)
-	return jsonify(res)
+	similarWords = model.most_similar(word)
+	words = []
+	for word in similarWords:
+		words.append({'word':word[0], 'value':word[1]})
+	return jsonify({'words': words})
 
 #エラー時のリターン
 @app.errorhandler(404)
