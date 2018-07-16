@@ -9,3 +9,7 @@ $ docker build -t masayuki5160/python3 .
 # 作成したdocker image(masayuki5160/python3)をstart
 $ docker run -it masayuki5160/python3 /bin/bash 
 ```
+
+# Appendix
+
+- [15分でできる日本語Word2Vec](https://qiita.com/makaishi2/items/63b7986f6da93dc55edd)
