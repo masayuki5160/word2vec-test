@@ -21,4 +21,4 @@ $ python useModel.py
 
 # Appendix
 
-- [15分でできる日本語Word2Vec](https://qiita.com/makaishi2/items/63b7986f6da93dc55edd)
+- [青空文庫のデータを利用してWord2Vecを試してみた(Dockerfileつき)](https://qiita.com/masayuki5160/items/a5f442e0e21bc0652f49)
